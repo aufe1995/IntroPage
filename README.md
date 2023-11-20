@@ -1,10 +1,10 @@
-# vueIntro
+# 포트폴리오 소개 페이지
 
-This template should help get you started developing with Vue 3 in Vite.
+직접 만든 포트폴리오를 웹 페이지로 구성해 소개하는 웹 페이지
 
-## Recommended IDE Setup
+## 화면 구성
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![image](https://github.com/aufe1995/IntroPage/assets/120147742/cf557bb9-bc93-44f9-99fe-b84f580fd995)
 
 ## Type Support for `.vue` Imports in TS
 
@@ -16,25 +16,3 @@ If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has a
     1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
     2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
 2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
