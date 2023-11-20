@@ -1,18 +1,18 @@
 # 포트폴리오 소개 페이지
 
-직접 만든 포트폴리오를 웹 페이지로 구성해 소개하는 웹 페이지
+직접 만든 포트폴리오를 Vue js 를 이용해 소개하는 웹 페이지
 
 ## 화면 구성
 
 ![image](https://github.com/aufe1995/IntroPage/assets/120147742/cf557bb9-bc93-44f9-99fe-b84f580fd995)
+메인 페이지에 스크롤을 이용해 이미지를 확인할 수 있다.
+최상단 좌측에는 로고가 있고 클릭 시 메인 화면으로 이동한다.
+항목 버튼은 3개가 존재하고 클릭 시 해당 항목의 가장 첫 페이지로 이동한다.
+메뉴바 클릭 시 항목의 모든 버튼이 메뉴바에 출력된다.
 
-## Type Support for `.vue` Imports in TS
+![image](https://github.com/aufe1995/IntroPage/assets/120147742/13fb42e0-fe70-4759-aa07-5dd5cf2379be)
+항목 마우스 오버 시 항목의 세부 카테고리가 출력되며, 세부 카테고리 선택 시 해당 페이지로 이동
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+![image](https://github.com/aufe1995/IntroPage/assets/120147742/2623fb9c-eeda-470e-bce8-794c732f1f28)
+메뉴바 클릭 시 항목의 모든 버튼이 메뉴바에 출력된다.
+우측 닫기 버튼 클릭 시, 메뉴바 이외 버튼 클릭 시 메뉴바가 닫힌다.
