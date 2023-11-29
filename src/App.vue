@@ -2,16 +2,16 @@
   <div id="app">
     <Header></Header>
 
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <router-link to="/main">main</router-link>
+		<router-view></router-view>	
 
     <Footer></Footer>
   </div>
 </template>
 
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
-import Header from "./components/common/Header.vue";
-import Footer from "./components/common/Footer.vue";
+import Header from "./common/Header.vue";
+import Footer from "./common/Footer.vue";
 
 </script>
 
