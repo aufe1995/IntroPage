@@ -1,16 +1,16 @@
 <template>
   <header>
     <h1>
-      <a href="#" class="logo"
+      <router-link to="/"
         ><img alt="Vue logo" src="../../assets/logo.svg" width="80"
-      /></a>
+      /></router-link>
     </h1>
     <div class="menuWrap">
       <ul class="menu">
         <li><router-link to="/menu1">메뉴1</router-link></li>
-        <li><a href="javascript:;">메뉴2</a></li>
-        <li><a href="javascript:;">메뉴3</a></li>
-        <li><a href="javascript:;">메뉴4</a></li>
+        <li><router-link to="/menu2">메뉴2</router-link></li>
+        <li><router-link to="/menu3">메뉴3</router-link></li>
+        <li><router-link to="/menu4">메뉴4</router-link></li>
       </ul>
     </div>
   </header>

@@ -2,7 +2,6 @@
   <div id="app">
     <Header></Header>
 
-    <router-link to="/main">main</router-link>
 		<router-view></router-view>	
 
     <Footer></Footer>
