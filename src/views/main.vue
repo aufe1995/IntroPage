@@ -1,5 +1,5 @@
 <template lang="">
-    <div>
+    <div class="main-container">
         main
     </div>
 </template>
@@ -8,6 +8,9 @@ export default {
     
 }
 </script>
-<style lang="">
-    
+<style scoped>
+.main-container {
+  padding-top: 100px;
+  height: 100vh;
+}
 </style>

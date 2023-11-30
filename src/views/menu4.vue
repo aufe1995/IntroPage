@@ -1,13 +1,12 @@
 <template lang="">
-    <div>
-        menu5
-    </div>
+  <div class="menu-container">menu4</div>
 </template>
 <script>
-export default {
-    
-}
+export default {};
 </script>
-<style lang="">
-    
+<style scoped>
+.menu-container {
+  padding-top: 100px;
+  height: 100vh;
+}
 </style>
